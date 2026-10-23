@@ -1,0 +1,50 @@
+name: Refresh Anthropic references
+
+on:
+  schedule:
+    - cron: "23 9 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: refresh-anthropic-references
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: main
+          persist-credentials: false
+      - uses: oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6 # v2
+        with:
+          bun-version-file: .bun-version
+      - run: bun install --frozen-lockfile
+      - name: Copy upstream sources without executing them
+        run: bun run upstream:sync --ref main
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - run: bun run ci
+      - uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8
+        with:
+          branch: chore/refresh-anthropic-managed-agents
+          add-paths: |
+            plugins/claude-managed-agents/skills/claude-managed-agents/references/
+          commit-message: "chore: refresh Anthropic Managed Agents references"
+          title: "chore: refresh Anthropic Managed Agents references"
+          body: |
+            Refresh the selected Anthropic sources and their referenced dependencies.
+
+            The source lock records the exact upstream commit and file digests.
+            Local CI passed in the refresh workflow; imported helper scripts were not executed.
+
+            Review instruction changes, new dependencies, and plugin versioning before merging.
+            No automatic merge is configured. A default-branch merge releases content to future sessions.
+
+            GitHub suppresses new workflow runs for PRs made with GITHUB_TOKEN.
+            If a separate CI check is required, dispatch CI on this PR branch before merging.

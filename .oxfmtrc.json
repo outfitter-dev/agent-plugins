@@ -1,0 +1,3 @@
+{
+  "ignorePatterns": ["bun.lock", "LICENSE", "plugins/**/skills/*/references/anthropic/**"]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "outfitter-agent-plugins",
+  "owner": { "name": "Outfitter", "url": "https://github.com/outfitter-dev" },
+  "metadata": {
+    "description": "Focused agent plugins maintained by Outfitter"
+  },
+  "plugins": [
+    {
+      "name": "managed-agents",
+      "source": "./plugins/claude-managed-agents",
+      "description": "Build and operate integrations with Anthropic Claude Managed Agents"
+    }
+  ]
+}

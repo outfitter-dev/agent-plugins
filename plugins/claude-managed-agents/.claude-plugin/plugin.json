@@ -1,0 +1,9 @@
+{
+  "name": "managed-agents",
+  "version": "0.1.0",
+  "description": "Focused guidance and pinned Anthropic references for Claude Managed Agents integrations",
+  "author": { "name": "Outfitter", "url": "https://github.com/outfitter-dev" },
+  "repository": "https://github.com/outfitter-dev/agent-plugins",
+  "license": "Apache-2.0",
+  "keywords": ["anthropic", "claude", "managed-agents"]
+}

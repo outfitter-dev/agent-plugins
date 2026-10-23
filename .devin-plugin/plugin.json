@@ -1,0 +1,15 @@
+{
+  "name": "outfitter-agent-plugins",
+  "displayName": "Outfitter Agent Plugins",
+  "version": "0.1.0",
+  "description": "An opt-in catalog of focused agent plugins from Outfitter",
+  "author": { "name": "Outfitter", "url": "https://github.com/outfitter-dev" },
+  "license": "Apache-2.0",
+  "optionalPlugins": [
+    {
+      "source": "git-subdir",
+      "url": "https://github.com/outfitter-dev/agent-plugins.git",
+      "path": "plugins/claude-managed-agents"
+    }
+  ]
+}

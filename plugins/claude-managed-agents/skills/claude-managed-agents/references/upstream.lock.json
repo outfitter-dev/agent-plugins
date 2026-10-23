@@ -1,0 +1,471 @@
+{
+  "schemaVersion": 1,
+  "repository": "anthropics/skills",
+  "sourceRoot": "skills/claude-api",
+  "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+  "selectionSha256": "006d57534a7ab5c7475a80beb853608ef0e94626951fd289281f8d025ad4118c",
+  "files": [
+    {
+      "path": "curl/managed-agents.md",
+      "sha256": "faa7dd3d83cfd32d1faabb13fee5902e041285579b00256f17fd21681ed3ff2a",
+      "gitBlobSha1": "3c64df0d89af4802f81452f34ebb9bc0bc5f299f",
+      "bytes": 10788,
+      "reason": "selected"
+    },
+    {
+      "path": "go/managed-agents/README.md",
+      "sha256": "0343be8d49f94687fe5e068ad69d9e05253b408e7bcd0e230b39924f6404facc",
+      "gitBlobSha1": "7eb8c5f0a908a06ee39ebadc92a5a22c22dd3902",
+      "bytes": 22460,
+      "reason": "selected"
+    },
+    {
+      "path": "java/managed-agents/README.md",
+      "sha256": "ba2a845898b302dc78b5354aa8f34ae4fc2c2ea41d12aa7d0440db59ee004e0c",
+      "gitBlobSha1": "f212275486c1912fa20469f1221b2ed84dc8e631",
+      "bytes": 20465,
+      "reason": "selected"
+    },
+    {
+      "path": "LICENSE.txt",
+      "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
+      "gitBlobSha1": "4f881c52d1f72f4cfb720e339e2d35c3058d01a9",
+      "bytes": 11345,
+      "reason": "selected"
+    },
+    {
+      "path": "php/managed-agents/README.md",
+      "sha256": "2f9ada8a85098a7a4a7265c29fadb74d695a33bf19bc6d5df3a2c275b4a535b2",
+      "gitBlobSha1": "0117f4211a6a29205549795aa2a8fb8e158efeba",
+      "bytes": 16555,
+      "reason": "selected"
+    },
+    {
+      "path": "python/claude-api/README.md",
+      "sha256": "284fbc6408809afd27288da95c5fb32daa48bd77518cd5fd4e973cc05363eaa8",
+      "gitBlobSha1": "3d4f61468bcb46039fdd749c3eb2a7606aacc1da",
+      "bytes": 20623,
+      "reason": "dependency"
+    },
+    {
+      "path": "python/claude-api/sdk-upgrade.md",
+      "sha256": "f7c5651b21dd6fd5651935415d907fa0a369736f3055d50edb3d236ea016527c",
+      "gitBlobSha1": "bff43ab37fad6ab7484fd9e53bb7402657faacf0",
+      "bytes": 28760,
+      "reason": "dependency"
+    },
+    {
+      "path": "python/claude-api/tool-use.md",
+      "sha256": "548dcc4bd2a36e8b90cec446f9b0b7917d2d75a085c7c2603b28c840bd621621",
+      "gitBlobSha1": "3aaa8497bcd301dc39c3f8b20da9b6586885eb63",
+      "bytes": 21411,
+      "reason": "dependency"
+    },
+    {
+      "path": "python/managed-agents/README.md",
+      "sha256": "82b6e5847027b0ffe5976116e5c249a58e9e2781eb09e914a81ee2f9eb970245",
+      "gitBlobSha1": "25f37e3fd2c57bf0fa582c04d6c7be08f2f559cb",
+      "bytes": 14823,
+      "reason": "selected"
+    },
+    {
+      "path": "ruby/managed-agents/README.md",
+      "sha256": "729ba22b8711a09192006d169098f16b933dd124ff36421772e4334d862306ab",
+      "gitBlobSha1": "f293db0276a0f88480a5d22c953dfe6a76467fdc",
+      "bytes": 12201,
+      "reason": "selected"
+    },
+    {
+      "path": "shared/agent-design.md",
+      "sha256": "9960728faf6976a2ddfceed02ed72af122d3b2558af573a9a0ea207b3adec2bc",
+      "gitBlobSha1": "517cec6b2a5529296b999916f43533425d30effb",
+      "bytes": 8736,
+      "reason": "selected"
+    },
+    {
+      "path": "shared/anthropic-cli.md",
+      "sha256": "2baa725ea0248ab7d98dcb218f09e5eb22f768006ad28f4d5011b4975b4d500e",
+      "gitBlobSha1": "13911dadc87be8d3829ad9a9cba53d33dbe06b22",
+      "bytes": 23999,
+      "reason": "selected"
+    },
+    {
+      "path": "shared/claude-platform-on-aws.md",
+      "sha256": "dec03193c61909167846c0526a4feacf011578b5e7ee29f76378141315cf97f5",
+      "gitBlobSha1": "f2a9f84f2b63b553b4af7af2fddaae129247db06",
+      "bytes": 4420,
+      "reason": "selected"
+    },
+    {
+      "path": "shared/cost-optimization.md",
+      "sha256": "d0107a954e9059f43c0aaac07ac1f8a9f5aa0a898834d3d983d623e5976e051b",
+      "gitBlobSha1": "f69f9d28880b6aa56ac33aa2f6987586c5ad7f74",
+      "bytes": 58448,
+      "reason": "dependency"
+    },
+    {
+      "path": "shared/error-codes.md",
+      "sha256": "1abf8dcc262732f7ee5e4c58d1909fbb0722ac12e1b957bffdf64f28fde9e4d2",
+      "gitBlobSha1": "f2d63f962bb522b7faac478cd3b21f81d2388e3f",
+      "bytes": 20796,
+      "reason": "selected"
+    },
+    {
+      "path": "shared/evals/build-eval.md",
+      "sha256": "c8f6ae960867f6b3b35557aec75361553888ae7168f268365444bf6a4e09a5d7",
+      "gitBlobSha1": "ba875b712ba63135c60aaba4710bf84681ddf34b",
+      "bytes": 54835,
+      "reason": "dependency"
+    },
+    {
+      "path": "shared/evals/cost-hillclimb.md",
+      "sha256": "dd46a354fed24d96c7f9acf42f9da64f5cceaa797949662d82374fd2cf7a3515",
+      "gitBlobSha1": "d929871e2663848dbf0872825d053c9e73efb938",
+      "bytes": 31711,
+      "reason": "dependency"
+    },
+    {
+      "path": "shared/evals/eval-audit.md",
+      "sha256": "a013f8eb0452c51c5a31860df0fb47219dcdb4da507092fc98867225095026ba",
+      "gitBlobSha1": "bc277162f32f11c98639621d94c4a3b90ce6d33d",
+      "bytes": 27892,
+      "reason": "dependency"
+    },
+    {
+      "path": "shared/evals/eval-hillclimb.md",
+      "sha256": "315ae8540ebaeb9f1d7de5efa49625e6137ead255dc3a545b63393df89375588",
+      "gitBlobSha1": "7e16832bef17a195ee87da35a4fd4df1b6fc9264",
+      "bytes": 69153,
+      "reason": "dependency"
+    },
+    {
+      "path": "shared/evals/report/build-report-lite.mjs",
+      "sha256": "af79ca5fa5f06747dbcaa1d40017c8c8e81e0aa11cb8e32b848043893cdb03c7",
+      "gitBlobSha1": "ba1c1ba05eadd9b121a1a1cc07cf59443e70754a",
+      "bytes": 27329,
+      "reason": "dependency"
+    },
+    {
+      "path": "shared/evals/report/runner-scaffold.mjs",
+      "sha256": "c3a87ba4b94b3018b83c075d5148ba7760580aa447699d513d45ab55b82a531a",
+      "gitBlobSha1": "2f0220b41b4b30eb12606aa7ff95a9fee2f6e924",
+      "bytes": 33142,
+      "reason": "dependency"
+    },
+    {
+      "path": "shared/evals/report/SCHEMA.md",
+      "sha256": "9a83404a9b3c413113df39d9bdf08e003ff4d6a75386f4010887da3298766687",
+      "gitBlobSha1": "fb0d09db801f163809cdf184eb94cd74e0c5bc20",
+      "bytes": 16121,
+      "reason": "dependency"
+    },
+    {
+      "path": "shared/live-sources.md",
+      "sha256": "cc82c88587c861919557598df0421ea7e8cec683f63adead997a0170dc78732b",
+      "gitBlobSha1": "d0693be9bf69673c1737d95ce59e8511a7e29d3a",
+      "bytes": 17732,
+      "reason": "selected"
+    },
+    {
+      "path": "shared/managed-agents-api-reference.md",
+      "sha256": "efd84dc8a17a2842965c775a905b17fa94cf762cc544df81e708f3aa7a89ae7b",
+      "gitBlobSha1": "bafed57da6956e04d891b96c5a4fe36e46985141",
+      "bytes": 35296,
+      "reason": "selected"
+    },
+    {
+      "path": "shared/managed-agents-client-patterns.md",
+      "sha256": "e9cf54ca98a9cdd7dba0f51acfedfc1b0f160bad243e39f338ff39d4bf5bf823",
+      "gitBlobSha1": "99a349bae41e11ac20edbde5e14b885bacf413d2",
+      "bytes": 12095,
+      "reason": "selected"
+    },
+    {
+      "path": "shared/managed-agents-core.md",
+      "sha256": "b1e7f90f644ef3333bc2c8407ba17410cf672314868474c73242ac969e22007f",
+      "gitBlobSha1": "431dd2968ffe7af9a3df4adc298b7f5820b68b6b",
+      "bytes": 33515,
+      "reason": "selected"
+    },
+    {
+      "path": "shared/managed-agents-environments.md",
+      "sha256": "227e52e6a3d1c967c68912738ff184a97d1f4cd019c6a7bc7cd90c9b9857e5a5",
+      "gitBlobSha1": "70cee556d5124244ae5998369cec3e3d0737ed4c",
+      "bytes": 14234,
+      "reason": "selected"
+    },
+    {
+      "path": "shared/managed-agents-events.md",
+      "sha256": "3c5edc1428bc4b9cff1ebf01cecffaff3ef1650c19afa48c616fcd05b9586e03",
+      "gitBlobSha1": "07b62eb6571f885713fbcdc465ce91af56e5386a",
+      "bytes": 26015,
+      "reason": "selected"
+    },
+    {
+      "path": "shared/managed-agents-memory.md",
+      "sha256": "0dec5641630f97629ea75bbbe5c2bced861f9c16b0572a68c901849ea4d00bcb",
+      "gitBlobSha1": "3c89bd781c1f42f10e8924ff661112fee6c1203f",
+      "bytes": 11362,
+      "reason": "selected"
+    },
+    {
+      "path": "shared/managed-agents-multiagent.md",
+      "sha256": "f3d03cc910064cf419c80ce79c5fe62abde127467deea55491b447a07953a06b",
+      "gitBlobSha1": "a62973e38aa3bd9f13d2962591a792d93bcac75d",
+      "bytes": 66616,
+      "reason": "selected"
+    },
+    {
+      "path": "shared/managed-agents-onboarding-from-quickstart.md",
+      "sha256": "e37628c5639786a7868acfed4be0e25678b69b7d13a9aced03d74deebe042342",
+      "gitBlobSha1": "b66d076a622febeccfcba1bc02e49f0915e45227",
+      "bytes": 19798,
+      "reason": "selected"
+    },
+    {
+      "path": "shared/managed-agents-onboarding-from-url.md",
+      "sha256": "b6c49289186d7cc521c995ba88fa916b65433101b2b3e9bf3c9add94ad87fa34",
+      "gitBlobSha1": "c9ee7a224b8fcd0aaf9e193b0ef7e01f7abe8801",
+      "bytes": 32707,
+      "reason": "selected"
+    },
+    {
+      "path": "shared/managed-agents-onboarding.md",
+      "sha256": "025683a9ee3db081d8a6978980349ce68d1df316d0c5aea31ae12438907208c9",
+      "gitBlobSha1": "a8619d167d5a2b78274d4bbb36961e6c70ce6394",
+      "bytes": 16787,
+      "reason": "selected"
+    },
+    {
+      "path": "shared/managed-agents-outcomes.md",
+      "sha256": "a516c6bf6a6a76f7f5ef83ec80895efd5de718e8f9418b57c705ce151afc5afe",
+      "gitBlobSha1": "b5b2fe800394a971a28a8a086a674faba6f65f54",
+      "bytes": 8960,
+      "reason": "selected"
+    },
+    {
+      "path": "shared/managed-agents-overview.md",
+      "sha256": "abcbdc29435c07be4749e21f005ed51f45942af03fa0bdcdeb18ebfa38c6a6f8",
+      "gitBlobSha1": "f9888171694b574e8d80c28d9e2b015f3b660fc8",
+      "bytes": 14571,
+      "reason": "selected"
+    },
+    {
+      "path": "shared/managed-agents-quickstarts/bug-hunter.md",
+      "sha256": "9afd40ef3e1bca9e1cc4c6655d314127cec0b4dcff0e12f6016508c134954248",
+      "gitBlobSha1": "9e6a3d2ea7e694ce6c8459b7b3959d112f6426f3",
+      "bytes": 8096,
+      "reason": "selected"
+    },
+    {
+      "path": "shared/managed-agents-quickstarts/contract-tracker.md",
+      "sha256": "312ee5f886de59b6db4603d2df9766d66285db36973656c5b9ff0bcc1ed02279",
+      "gitBlobSha1": "44b0d20362632cf6de19ddb05e286d652154beb7",
+      "bytes": 1806,
+      "reason": "selected"
+    },
+    {
+      "path": "shared/managed-agents-quickstarts/data-analyst.md",
+      "sha256": "c2116bac43972f2b40311104bd7cd4e084cca806dd40a1ddf8462845d785bd57",
+      "gitBlobSha1": "bfc48475e91d7beb9bb8dfa8e2fb53f723392146",
+      "bytes": 1561,
+      "reason": "selected"
+    },
+    {
+      "path": "shared/managed-agents-quickstarts/deep-researcher.md",
+      "sha256": "a680856d874dff23cd3f016e36d0a58bc4db36c56d790d216743f236ee37a48c",
+      "gitBlobSha1": "090fde54dfff5fa3eeb0a789622b57fc2329f14c",
+      "bytes": 2430,
+      "reason": "selected"
+    },
+    {
+      "path": "shared/managed-agents-quickstarts/explainer-video-maker.md",
+      "sha256": "c2570c5e14d51c5caa77646ac417d18619d34a27cc94dc72cf020c698f2803f3",
+      "gitBlobSha1": "55e97797cecfd8c905e12824ee3464aa79adb37d",
+      "bytes": 4886,
+      "reason": "selected"
+    },
+    {
+      "path": "shared/managed-agents-quickstarts/field-monitor.md",
+      "sha256": "f17f26eee0109f4172134c5bea5761c52b8459e44ae03608c701cd3492f4a3af",
+      "gitBlobSha1": "79268b6c4b552850bc69597a6ad925e5aa378e2b",
+      "bytes": 2105,
+      "reason": "selected"
+    },
+    {
+      "path": "shared/managed-agents-quickstarts/incident-commander.md",
+      "sha256": "badd3622ffab0798ab44a55189f47e95c107107ce57eda9fa5357b1aded8fb2a",
+      "gitBlobSha1": "d91edb8597e48c8cfd9001c7dd8905e7e2c62b58",
+      "bytes": 1723,
+      "reason": "selected"
+    },
+    {
+      "path": "shared/managed-agents-quickstarts/performance-tuner.md",
+      "sha256": "922396e14b569bc98a7bdde34d10890cc81c5184e81971e6c9be108d191dd639",
+      "gitBlobSha1": "b61d8e45a3170f0d17c7d6a0ea0c7dcdd3bdd586",
+      "bytes": 11394,
+      "reason": "selected"
+    },
+    {
+      "path": "shared/managed-agents-quickstarts/sprint-retro-facilitator.md",
+      "sha256": "8b5ed9895feb1ade54578a270493c63d0f57b3bb0fbc2eafcfa2e87d3130fa75",
+      "gitBlobSha1": "1d7a11a325b12adaf2d2a79f8a9a100df9b3dbb9",
+      "bytes": 2091,
+      "reason": "selected"
+    },
+    {
+      "path": "shared/managed-agents-quickstarts/structured-extractor.md",
+      "sha256": "c278074c8c48d35fc6c68ed32eaa8704cae73a8e74035fd1d4a6abdcb9bd0fbd",
+      "gitBlobSha1": "0f33adfe90087d93020b6261499a636d460330ad",
+      "bytes": 1541,
+      "reason": "selected"
+    },
+    {
+      "path": "shared/managed-agents-quickstarts/support-agent.md",
+      "sha256": "da75c50edf207f5ef468fbbbfc2e77d56e7d906a6c2cda28756f896195e171c5",
+      "gitBlobSha1": "79eb2519e8a7b8f92433d5781a9e685d88bd98ca",
+      "bytes": 1481,
+      "reason": "selected"
+    },
+    {
+      "path": "shared/managed-agents-quickstarts/support-to-eng-escalator.md",
+      "sha256": "46720e5341808a9938825be44f936c91f83739ebdef9e1d17d9f0ec22738346b",
+      "gitBlobSha1": "0558741c0411149d98bfb696f949ba917b3879cc",
+      "bytes": 1842,
+      "reason": "selected"
+    },
+    {
+      "path": "shared/managed-agents-quickstarts/watchlist-scanner.md",
+      "sha256": "e67861c63b9d46b01c8d2784998b7f0de9a87aa6012b77127def1253c5ac13db",
+      "gitBlobSha1": "19c17c3fb14446afe0ffc1485d49268edc87bff9",
+      "bytes": 5642,
+      "reason": "selected"
+    },
+    {
+      "path": "shared/managed-agents-scheduled-deployments.md",
+      "sha256": "3fdf7bd691b4f798149d7ebdb933dcee7d14d5d47dd6bf8196c41b819223175e",
+      "gitBlobSha1": "6a6fc063a04492e6158a848aab4dbba0b8859982",
+      "bytes": 9561,
+      "reason": "selected"
+    },
+    {
+      "path": "shared/managed-agents-self-hosted-sandboxes.md",
+      "sha256": "a0c0d98ee1921ee5856a9fd1c02931d724c7b7ffffe17f72c85bc90190399085",
+      "gitBlobSha1": "6d00564d1275ace86cfa59fb5b6b42f361253502",
+      "bytes": 27926,
+      "reason": "selected"
+    },
+    {
+      "path": "shared/managed-agents-tools.md",
+      "sha256": "9a9fd54ebb5e81eb0c6b7505f1cadc420fed5696cdab3e0080dd00ccf2e37b6f",
+      "gitBlobSha1": "f1cf836d38b89117275e8192795f8531e2290709",
+      "bytes": 37869,
+      "reason": "selected"
+    },
+    {
+      "path": "shared/managed-agents-webhooks.md",
+      "sha256": "38746f77a3ee971f9b1f7d47cec9e753131bf271fd795aed5c3da1764c9a6ac1",
+      "gitBlobSha1": "25f0592cdf26bed177b36e9e2579dea9676357fd",
+      "bytes": 11321,
+      "reason": "selected"
+    },
+    {
+      "path": "shared/model-migration.md",
+      "sha256": "b4fe96362b865a28726ab877c966624d5bfc2f86ff9b34940a34e3f8b6fc034e",
+      "gitBlobSha1": "eb523e50ece3627c2d945b11a658d4536829353c",
+      "bytes": 346255,
+      "reason": "dependency"
+    },
+    {
+      "path": "shared/models.md",
+      "sha256": "c1af1f093d46fd58e50ef3e8e28d339650f333059bfc49a63d01d0175675161b",
+      "gitBlobSha1": "9dd5c7840d973be30c237b59aebe31182d2c55a5",
+      "bytes": 17502,
+      "reason": "selected"
+    },
+    {
+      "path": "shared/platform-availability.md",
+      "sha256": "607997bc16de403970cb32c1dc1fa63e68f7f02328728be59397e7cefb2efed4",
+      "gitBlobSha1": "61ad66dec946aeaba023a8c6cec74c20396e88a9",
+      "bytes": 7415,
+      "reason": "selected"
+    },
+    {
+      "path": "shared/preserved-thinking-migration.md",
+      "sha256": "29921d69fa8dc7e450e7bb793c9f59ae755262ccc933a52eb7116c207defb34c",
+      "gitBlobSha1": "4f2051849ad23e7878c14a88008b4b3a5c8e6a7b",
+      "bytes": 64049,
+      "reason": "dependency"
+    },
+    {
+      "path": "shared/preserved-thinking-migration/causes.md",
+      "sha256": "c2dbadb0439806863723e5ef7279d626d731d8179fd39293ff26d226b94d3694",
+      "gitBlobSha1": "f963b17494ac94c8ae06348f455db9470dd7ff6f",
+      "bytes": 39705,
+      "reason": "dependency"
+    },
+    {
+      "path": "shared/preserved-thinking-migration/drop_block_probe.py",
+      "sha256": "f23abb75bc079d835f57da7598ac5a1bee4318214ab803185feb94d8db8c4b88",
+      "gitBlobSha1": "95f6a5146abcb3f111676c71b8a89feb3efb0495",
+      "bytes": 66582,
+      "reason": "dependency"
+    },
+    {
+      "path": "shared/preserved-thinking-migration/prefix_diff.py",
+      "sha256": "734934b81b5f26e9ed2f8f51f44fed6554233de4f37b22a8845ae4ffcb622ac0",
+      "gitBlobSha1": "cfa88044b45b4acb8b82044f51872f4f7e306c2f",
+      "bytes": 94008,
+      "reason": "dependency"
+    },
+    {
+      "path": "shared/prompt-audit.md",
+      "sha256": "1a50ec950f9c11bb4ad1a5032a26bb20cd52c9d358adf6add2cb1ceb1aaf6cc9",
+      "gitBlobSha1": "9f75ebb58a7dae16c860a97b5ffb2ade650356d0",
+      "bytes": 49344,
+      "reason": "dependency"
+    },
+    {
+      "path": "shared/prompt-caching.md",
+      "sha256": "5800f883ff1babe24105e7e0e3fc7e9b03dfcce25bb2ccded4bb40d8c81d8464",
+      "gitBlobSha1": "3ac5a38dcbe407794dcad614476acce42e45b95d",
+      "bytes": 33116,
+      "reason": "dependency"
+    },
+    {
+      "path": "shared/token-counting.md",
+      "sha256": "8674e246c165decdc13106a4861a254ededb0421caf7fa4015ed0fb36e6c60dc",
+      "gitBlobSha1": "65dbb4427e7018d527fc82dab07f3665ebfb3591",
+      "bytes": 1603,
+      "reason": "dependency"
+    },
+    {
+      "path": "shared/tool-use-concepts.md",
+      "sha256": "62293e7bb7763f7ae487d3b98ead6b733689b2fd7089784ad5859dd869a153f5",
+      "gitBlobSha1": "ed06b97d722c113f1f39ff1e2c94165e9f990b72",
+      "bytes": 44359,
+      "reason": "dependency"
+    },
+    {
+      "path": "typescript/claude-api/README.md",
+      "sha256": "b2a01ccbaa0d4406e400bcd8efc033759af5d646a97aab744aee55bf07d6ab16",
+      "gitBlobSha1": "79b18031da6014fd4b305af159838f0a0cdddb18",
+      "bytes": 15833,
+      "reason": "dependency"
+    },
+    {
+      "path": "typescript/claude-api/tool-use.md",
+      "sha256": "d0c3e5da146c6da8a85ced14f964dc33de4c0153aa2748dee35c319752e8b725",
+      "gitBlobSha1": "1f5ead7da17b4b985886be1a496fcbd5c235c160",
+      "bytes": 24295,
+      "reason": "dependency"
+    },
+    {
+      "path": "typescript/managed-agents/README.md",
+      "sha256": "5daf6b0c6a443e1ae720b0a7343e061ebdbaeb751dd674f37f9abf9d12efc66f",
+      "gitBlobSha1": "e177acd6a47971d722f76d8c658b0260bf176b11",
+      "bytes": 14013,
+      "reason": "selected"
+    }
+  ]
+}

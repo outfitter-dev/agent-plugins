@@ -1,0 +1,24 @@
+{
+  "repository": "anthropics/skills",
+  "sourceRoot": "skills/claude-api",
+  "destination": "plugins/claude-managed-agents/skills/claude-managed-agents/references/anthropic",
+  "lockfile": "plugins/claude-managed-agents/skills/claude-managed-agents/references/upstream.lock.json",
+  "include": [
+    "shared/managed-agents-*.md",
+    "shared/managed-agents-quickstarts/*.md",
+    "*/managed-agents/README.md",
+    "curl/managed-agents.md"
+  ],
+  "support": [
+    "LICENSE.txt",
+    "shared/agent-design.md",
+    "shared/anthropic-cli.md",
+    "shared/claude-platform-on-aws.md",
+    "shared/error-codes.md",
+    "shared/live-sources.md",
+    "shared/models.md",
+    "shared/platform-availability.md"
+  ],
+  "optionalReferences": ["shared/evals/report/build-report.mjs"],
+  "licenseSha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362"
+}

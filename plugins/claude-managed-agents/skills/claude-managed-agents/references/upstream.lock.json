@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "repository": "anthropics/skills",
   "sourceRoot": "skills/claude-api",
-  "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+  "commit": "ca45fc496a3436251f191354091d557da31c15b5",
   "selectionSha256": "006d57534a7ab5c7475a80beb853608ef0e94626951fd289281f8d025ad4118c",
   "files": [
     {

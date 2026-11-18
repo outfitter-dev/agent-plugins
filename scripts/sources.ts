@@ -14,7 +14,7 @@ export interface SourceConfig {
   licenseSha256: string;
 }
 
-export interface SourceFile {
+interface SourceFile {
   path: string;
   sha256: string;
   gitBlobSha1: string;
@@ -116,7 +116,7 @@ export function selectionDigest(config: SourceConfig): string {
   return sha256(JSON.stringify(config));
 }
 
-export function selectPaths(config: SourceConfig, available: Set<string>): Set<string> {
+function selectPaths(config: SourceConfig, available: Set<string>): Set<string> {
   const selected = new Set(config.support);
   for (const pattern of config.include) {
     const matches = [...available].filter((path) => new Bun.Glob(pattern).match(path));

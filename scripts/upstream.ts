@@ -38,7 +38,7 @@ async function githubJson(url: string): Promise<unknown> {
   return response.json();
 }
 
-export async function downloadSnapshot(config: SourceConfig, ref: string): Promise<Snapshot> {
+async function downloadSnapshot(config: SourceConfig, ref: string): Promise<Snapshot> {
   const api = `https://api.github.com/repos/${config.repository}`;
   const revision = (await githubJson(`${api}/commits/${encodeURIComponent(ref)}`)) as {
     sha: string;
